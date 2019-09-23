@@ -7,7 +7,7 @@ import ThemeContext from "./ThemeContext";
 import NavBar from "./NavBar";
 
 const App = () => {
-  const theme = useState("darkblue");
+  const theme = useState("pink");
   return (
     <ThemeContext.Provider value={theme}>
       <div>
